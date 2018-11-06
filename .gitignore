@@ -1,13 +1,11 @@
 .mymetadata
 .checkstyle
-.classpath
 .class
 .war
 .zip
 .rar
 .idea
 *.iml
-.settings/*
 /indexes/*
 /target/*
 /src/main/webapp/WEB-INF/classes/*
@@ -15,6 +13,4 @@
 /bin/
 /catalina.home_IS_UNDEFINED/*
 /**/target/*
-/**/.settings/*
 /**/catalina.home_IS_UNDEFINED/*
-/**/.classpath
