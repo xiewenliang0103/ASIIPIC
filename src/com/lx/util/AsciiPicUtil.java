@@ -30,15 +30,15 @@ public class AsciiPicUtil {
 
 	public static void main(String[] args) {
 		// 静态图片
-		String imgPath = System.getProperty("user.dir") + File.separator + "img/蜡笔小新.jpg";
-		String asciimgPath = System.getProperty("user.dir") + File.separator + "img/蜡笔小新-ascii.jpg";
-		generateAsciiPic(imgPath, asciimgPath);
+		// String imgPath = System.getProperty("user.dir") + File.separator +
+		// "img/蜡笔小新.jpg";
+		// String asciimgPath = System.getProperty("user.dir") + File.separator
+		// + "img/蜡笔小新-ascii.jpg";
+		// generateAsciiPic(imgPath, asciimgPath);
 		// 动态图片
-		// String imgPath2 = System.getProperty("user.dir") + File.separator +
-		// "img/小黄人.gif";
-		// String asciimgPath2 = System.getProperty("user.dir") + File.separator
-		// + "img/小黄人-ascii.gif";
-		// generateAsciiGifPic(imgPath2, asciimgPath2);
+		String imgPath2 = System.getProperty("user.dir") + File.separator + "img/谢谢.gif";
+		String asciimgPath2 = System.getProperty("user.dir") + File.separator + "img/谢谢-ascii.gif";
+		generateAsciiGifPic(imgPath2, asciimgPath2);
 	}
 
 	/**
